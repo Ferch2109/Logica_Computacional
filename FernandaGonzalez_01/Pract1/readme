@@ -1,0 +1,62 @@
+**María Fernanda Gonźalez Chávez
+**313036367
+**Pract1
+
+Primero se definieron los tipos a utilizar, después se estableció el dominio y contradominio de cada función. Se hizo una simulación de cómo se haría el proceso a mano y en base a eso se agregaron funciones auxiliares para cada ejercicio. Después se hizo el proceso de cada función para ver como sería su comportamiento. 
+
+En caso de ideas como recursión, librerías, funciones desconocidas o tipos definidos en si mismos se hizo alución a la documentación sobre el lenguaje.
+
+
+== FORMA DE EJECUCIÓN ==
+
+Se escribe la llamada al compilador poniendo en la terminal
+gchi
+después para cargar un programa se ejecuta el comando
+:l nombre_arch
+Y se llama la función principal con su debida entrada.
+
+Chicharronera: Función principal ---> raizReal :: P2 -> Bool
+					con P2 = ( Double, Double, Double )
+
+Cesar: Función principal ---> cesar :: String -> String
+
+Binarios: Funciones ---> sucesor :: BinarioPos -> BinarioPos
+			 suma :: BinarioPos -> BinarioPos -> BinarioPos
+			 producto :: BinarioPos -> BinarioPos -> BinarioPos
+				con BinarioPos = U | Cero BinarioPos | Uno BinarioPos
+
+
+== CONCLUSIONES ==
+
+-Es buena táctica de programación hacer el proceso en papel de como funciona cada función para ver en que parte falla, sobre todo si se hacen cuentas como en los números binarios. 
+-Hacer funciones ya existentes en vez de solo implementarlas ayuda mucho a tener al menos una
+idea de como podría ser su estructura.
+-Es importante repasar al menos una introducción a un lenguaje antes de programar en el y no hacerlo sobre la marcha.
+
+
+== BIBLIOGRAFÍA ==
+
+Eric Kidd (2017). 8 ways to report errors in Haskell. [en linea]:Ramdom Hacks.
+Recuperado de: http://www.randomhacks.net/2007/03/10/haskell-8-ways-to-report-errors/
+
+Foro (2016). Haskell: Deriving Show for costum type. [en linea]: Stack Overflow.
+Recuperado de: http://stackoverflow.com/questions/6082090/haskell-deriving-show-for-custom-type
+
+Aprende Haskell por el bien de todos. [en linea]: Aprende Haskell.
+Recuperado de: http://aprendehaskell.es/main.html
+
+Haskell: Ord. [en linea]: Zvon.
+Recuperado de: http://zvon.org/other/haskell/Outputprelude/Ord_c.html
+
+Haskell: Ord. [en linea]: Zvon.
+Recuperado de: zvon.org/other/haskell/Outputchar/chr_f.html
+
+Dieguinmc (2012). Suma, resta y multiplicación de números binarios. [en linea]: Slide Share
+Recuperado de: http://es.slideshare.net/Dieguinmc/suma-resta-y-multiplicacin-de-nmeros-binarios
+
+
+
+
+
+
+
